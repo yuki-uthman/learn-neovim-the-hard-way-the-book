@@ -1,0 +1,10 @@
+[book]
+authors = ["Yuki Yoshimine"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Learn Neovim The-Hard-Way"
+
+[output.html]
+additional-css = ["theme/css/custom.css"]
+default-theme = "rust"
