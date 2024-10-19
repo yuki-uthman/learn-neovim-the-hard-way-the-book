@@ -172,13 +172,13 @@
 }
 
 .rust {
-    --bg: hsl(60, 9%, 87%);
+    --bg: #F2EAD3
     --fg: #262625;
 
-    --sidebar-bg: #3b2e2a;
-    --sidebar-fg: #c8c9db;
+    --sidebar-bg: #f4f0e8 ;
+    --sidebar-fg: #262625;
     --sidebar-non-existant: #505254;
-    --sidebar-active: #e69f67;
+    --sidebar-active: #3473ad;
     --sidebar-spacer: #45373a;
 
     --scrollbar: var(--sidebar-fg);
@@ -192,7 +192,7 @@
 
     --theme-popup-bg: #e1e1db;
     --theme-popup-border: #b38f6b;
-    --theme-hover: #99908a;
+    --theme-hover: #ede7db;
 
     --quote-bg: hsl(60, 5%, 75%);
     --quote-border: hsl(60, 5%, 70%);
