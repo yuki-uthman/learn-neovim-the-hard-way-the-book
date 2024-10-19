@@ -6,5 +6,11 @@ src = "src"
 title = "Learn Neovim The-Hard-Way"
 
 [output.html]
-additional-css = ["theme/css/custom.css"]
+additional-css = ["theme/css/custom.css", "theme/css/mdbook-admonish.css"]
 default-theme = "rust"
+
+[preprocessor]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
