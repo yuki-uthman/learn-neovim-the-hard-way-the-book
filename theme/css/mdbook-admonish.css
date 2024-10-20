@@ -340,8 +340,8 @@ details[open].admonition > summary.admonition-title::after {
 }
 
 .rust :is(.admonition) {
-  background-color: #E3F4F4;
-  color: var(--sidebar-fg);
+  background-color: #f6f7f6;
+  color: #262625;
 }
 .rust .admonition-anchor-link:link, .rust .admonition-anchor-link:visited {
   color: var(--sidebar-fg);
