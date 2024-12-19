@@ -7,3 +7,5 @@
 
 # API Reference
 
+- [Cursor](./Cursor.md)
+    - [Current Cursor Position](./Current_Cursor_Position.md)
