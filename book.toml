@@ -9,6 +9,7 @@ title = "Learn Neovim The-Hard-Way"
 additional-css = ["theme/css/custom.css", "theme/css/mdbook-admonish.css"]
 additional-js = ["theme/js/keybinds.js"]
 default-theme = "rust"
+google-analytics = "G-J0F3NPQRPD"
 
 [preprocessor]
 
