@@ -9,3 +9,4 @@
 
 - [Cursor](./Cursor.md)
     - [Get Cursor Position](./Get_Cursor_Position.md)
+    - [Set Cursor Position](./Set_Cursor_Position.md)
