@@ -8,4 +8,4 @@
 # API Reference
 
 - [Cursor](./Cursor.md)
-    - [Current Cursor Position](./Current_Cursor_Position.md)
+    - [Get Cursor Position](./Get_Cursor_Position.md)

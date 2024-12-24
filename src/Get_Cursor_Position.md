@@ -1,6 +1,6 @@
 # How to Get the Current Cursor Position in Neovim Using Lua
 
-Learn how to retrieve and display the current cursor position in Neovim using Lua. This guide provides step-by-step instructions with a code example, making it easy to add this functionality to your Neovim configuration.
+Learn how to retrieve and display the current cursor position using Neovim Api. This guide provides step-by-step instructions with a code example, making it easy to use this code in your Neovim Plugin.
 
 ## What is `vim.api.nvim_win_get_cursor`?
 
@@ -31,5 +31,5 @@ local function get_cursor_position()
 end
 
 -- Map the function to a keybinding for quick access
-vim.keymap.set('n', '<leader>cp', get_cursor_position, { desc = "Show cursor position" })
+vim.keymap.set('n', ',,', get_cursor_position, { desc = "Show cursor position" })
 ```
