@@ -12,6 +12,7 @@
     - [Set Cursor Position](./english/cursor/set-position.md)
     - [Move Cursor with Line Number](./english/cursor/move-to-line.md)
     - [Move Cursor Up or Down](./english/cursor/move-up-or-down.md)
+    - [Move Cursor Up or Down 2](./english/cursor/move-up-or-down-2.md)
 
 # Referencia API
 
@@ -20,3 +21,4 @@
     - [Establecer la Posición del Cursor](spanish/cursor/set-position.md)
     - [Mover el Cursor con el número de línea](spanish/cursor/move-to-line.md)
     - [Mover el Cursor hacia arriba o abajo](spanish/cursor/move-up-or-down.md)
+    - [Mover el Cursor hacia arriba o abajo 2](spanish/cursor/move-up-or-down-2.md)
