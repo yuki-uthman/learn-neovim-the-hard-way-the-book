@@ -48,7 +48,10 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
 .hidden { display: none !important; }
 
 h2, h3 { margin-top: 2.5em; }
-h4, h5 { margin-top: 2em; }
+h4, h5 {
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
 
 .header + .header h3,
 .header + .header h4,
@@ -99,7 +102,10 @@ h6:target::before {
 }
 .content p { line-height: 1.45em; }
 .content ol { line-height: 1.45em; }
-.content ul { line-height: 1.45em; }
+.content ul {
+    line-height: 1.45em;
+    margin-top: 0.5em;
+}
 .content a { text-decoration: none; }
 .content a:hover { text-decoration: underline; }
 .content img, .content video { max-width: 100%; }
