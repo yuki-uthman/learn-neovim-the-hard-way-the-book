@@ -25,6 +25,11 @@ local function move_to_line_10()
   vim.api.nvim_win_set_cursor(0, { 10, 0 }) -- 0 is the ID of the current window
 end
 
--- Map the function to a keybinding for quick testing
+-- Map the function to a key
 vim.keymap.set('n', ',,', move_to_line_10, { desc = "Move cursor to line 10" })
 
+-- Or execute it inside the function
+vim.keymap.set('n', ',,', function()
+    move_to_line_10()
+end, { desc = "Move cursor to Line 10" })
+```

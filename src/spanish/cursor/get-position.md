@@ -19,17 +19,23 @@ La función `vim.api.nvim_win_get_cursor` en Neovim recupera la posición actual
 
 ## Ejemplo
 ```lua
--- Función para recuperar y mostrar la posición actual del cursor
+-- Función para obtener y mostrar la posición actual del cursor
 local function print_cursor_position()
 
-  -- Obtener la posición actual del cursor en la ventana actual
+  -- Obtiene la posición actual del cursor en la ventana actual
   local cursor_pos = vim.api.nvim_win_get_cursor(0)
-  local line = cursor_pos[1] -- Número de línea (base 1)
-  local col = cursor_pos[2] -- Número de columna (base 0)
+  local line = cursor_pos[1] -- Número de línea basado en 1
+  local col = cursor_pos[2] -- Número de columna basado en 0
 
-  -- Mostrar la posición del cursor en la línea de comandos
+  -- Muestra la posición del cursor en la línea de comandos
   print("Posición del cursor: Línea " .. line .. ", Columna " .. col)
 end
 
--- Asignar la función a un atajo de teclado para un acceso rápido
+-- Asigna la función a una tecla
 vim.keymap.set('n', ',,', print_cursor_position, { desc = "Imprimir posición del cursor" })
+
+-- O ejecútala dentro de la función
+vim.keymap.set('n', ',,', function()
+    print_cursor_position()
+end, { desc = "Imprimir posición del cursor" })
+```

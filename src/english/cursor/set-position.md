@@ -19,13 +19,17 @@ The `vim.api.nvim_win_set_cursor` function in Neovim allows you to set the curso
 - **`nil`**
 
 ## Example
-
 ```lua
 -- Example usage: Jump to line 10, column 5
 local function jump()
   vim.api.nvim_win_set_cursor(0, { 10, 5 }) -- 0 is the ID of the current window
 end
 
--- Map the function to a keybinding for quick testing
+-- Map the function to a key
 vim.keymap.set('n', ',,', jump, { desc = "Set cursor position" })
+
+-- Or execute it inside the function
+vim.keymap.set('n', ',,', function()
+    jump()
+end, { desc = "Set cursor position" })
 ```

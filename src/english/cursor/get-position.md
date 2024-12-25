@@ -31,7 +31,11 @@ local function print_cursor_position()
   print("Cursor Position: Line " .. line .. ", Column " .. col)
 end
 
--- Map the function to a keybinding for quick access
+-- Map the function to a key
 vim.keymap.set('n', ',,', print_cursor_position, { desc = "Print cursor position" })
-```
 
+-- Or execute it inside the function
+vim.keymap.set('n', ',,', function()
+    print_cursor_position()
+end, { desc = "Print cursor position" })
+```

@@ -19,12 +19,17 @@ La función `vim.api.nvim_win_set_cursor` en Neovim permite establecer la posici
 - **`nil`**
 
 ## Ejemplo
-
 ```lua
--- Ejemplo: Mover el cursor a la línea 15 y la columna 3
-local function mover_a_linea()
-  vim.api.nvim_win_set_cursor(0, { 15, 3 }) -- 0 es el ID de la ventana actual
+-- Función para mover el cursor a la línea 10
+local function move_to_line_10()
+  vim.api.nvim_win_set_cursor(0, { 10, 0 }) -- 0 es el ID de la ventana actual
 end
 
--- Asigna la función a un atajo para probar fácilmente
-vim.keymap.set('n', ',m', mover_a_linea, { desc = "Mover el cursor a una línea específica" })
+-- Asigna la función a una tecla
+vim.keymap.set('n', ',,', move_to_line_10, { desc = "Mover el cursor a la línea 10" })
+
+-- O ejecútala dentro de la función
+vim.keymap.set('n', ',,', function()
+    move_to_line_10()
+end, { desc = "Mover el cursor a la línea 10" })
+```

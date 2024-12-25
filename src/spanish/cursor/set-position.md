@@ -21,10 +21,16 @@ La función `vim.api.nvim_win_set_cursor` en Neovim permite establecer la posici
 ## Ejemplo
 
 ```lua
--- Uso de ejemplo: Saltar a la línea 10, columna 5
-local function saltar()
+-- Ejemplo de uso: Saltar a la línea 10, columna 5
+local function jump()
   vim.api.nvim_win_set_cursor(0, { 10, 5 }) -- 0 es el ID de la ventana actual
 end
 
--- Asignar la función a un atajo para probar rápidamente
-vim.keymap.set('n', ',,', saltar, { desc = "Establecer posición del cursor" })
+-- Asigna la función a una tecla
+vim.keymap.set('n', ',,', jump, { desc = "Establecer posición del cursor" })
+
+-- O ejecútala dentro de la función
+vim.keymap.set('n', ',,', function()
+    jump()
+end, { desc = "Establecer posición del cursor" })
+```
