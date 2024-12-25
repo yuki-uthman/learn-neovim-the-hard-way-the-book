@@ -7,7 +7,7 @@
 
 # API Reference
 
-- [Cursor](./Cursor.md)
-    - [Get Cursor Position](./Get_Cursor_Position.md)
-    - [Set Cursor Position](./Set_Cursor_Position.md)
+- [Cursor](./en-cursor.md)
+    - [Get Cursor Position](./en-cursor-get-position.md)
+    - [Set Cursor Position](./en-cursor-set-position.md)
     - [Move Cursor with Line Number](./en-cursor-move-to-line.md)
