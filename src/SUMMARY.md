@@ -12,7 +12,8 @@
     - [Set Cursor Position](./english/cursor/set-position.md)
     - [Move Cursor with Line Number](./english/cursor/move-to-line.md)
     - [Move Cursor Up or Down](./english/cursor/move-up-or-down.md)
-    - [Move Cursor Up or Down 2](./english/cursor/move-up-or-down-2.md)
+        - [using nvim_win_set_cursor](./english/cursor/move-up-or-down-1.md)
+        - [using feedkeys](./english/cursor/move-up-or-down-2.md)
 
 # Referencia API
 

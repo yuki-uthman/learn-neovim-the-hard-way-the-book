@@ -1,4 +1,4 @@
-# How to Move the Cursor Up or Down Using `feedkeys` in Neovim's Lua API
+# How to Move the Cursor Up or Down Using `feedkeys`
 
 Learn how to programmatically move the cursor up and down using Neovim's `feedkeys` function. This guide provides an example for invoking normal mode commands through Lua, enabling you to manipulate the cursor efficiently.
 
