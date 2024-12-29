@@ -18,6 +18,9 @@
 - [Keymap](./english/keymap.md)
     - [Set Keymap to Lua Function](./english/keymap/set-lua.md)
 
+- [Text](./english/text.md)
+    - [Get Current Line](./english/text/get-current-line.md)
+
 # Referencia API
 
 - [Cursor](./spanish/cursor.md)
