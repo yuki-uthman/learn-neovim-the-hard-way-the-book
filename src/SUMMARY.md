@@ -21,6 +21,12 @@
 - [Text](./english/text.md)
     - [Get Current Line](./english/text/get-current-line.md)
 
+# Lua Reference
+
+- [Lua](./english/lua.md)
+    - [Meta Methods](./english/lua/meta-methods.md)
+      - [__index](./english/lua/meta-methods/index.md)
+
 # Referencia API
 
 - [Cursor](./spanish/cursor.md)
