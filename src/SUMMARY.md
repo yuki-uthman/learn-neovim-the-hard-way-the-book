@@ -27,6 +27,7 @@
     - [Meta Methods](./english/lua/meta-methods.md)
       - [__index](./english/lua/meta-methods/index.md)
         - [Lazy Loading](./english/lua/meta-methods/index/lazy-loading.md)
+        - [Default User Config](./english/lua/meta-methods/index/default-user-config.md)
 
 # Referencia API
 
