@@ -28,6 +28,9 @@
       - [__index](./english/lua/meta-methods/index.md)
         - [Lazy Loading](./english/lua/meta-methods/index/lazy-loading.md)
         - [Default User Config](./english/lua/meta-methods/index/default-user-config.md)
+      - [__call](./english/lua/meta-methods/index/call.md)
+        - [Logger](./english/lua/meta-methods/index/call/logger.md)
+        - [Matrices](./english/lua/meta-methods/index/call/matrices.md)
 
 # Referencia API
 
