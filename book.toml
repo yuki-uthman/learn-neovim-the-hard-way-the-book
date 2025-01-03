@@ -10,6 +10,9 @@ additional-css = ["theme/css/custom.css", "theme/css/mdbook-admonish.css"]
 additional-js = ["theme/js/keybinds.js"]
 default-theme = "rust"
 
+[output.html.fold]
+enable = true
+
 [preprocessor]
 
 [preprocessor.admonish]
